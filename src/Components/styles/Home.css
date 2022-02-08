@@ -1,6 +1,7 @@
 /* Override default */
-h1, p {
-  margin:0;
+h1,
+p {
+  margin: 0;
 }
 
 .HomeContainer {
@@ -9,14 +10,14 @@ h1, p {
 }
 
 .header {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.headerWrapper {
   background-color: #1f2937;
   color: white;
   height: 35rem;
-}
-
-.wrapper {
-  width: 60%;
-  margin: 0 auto;
 }
 
 .navbarContainer {
@@ -25,35 +26,130 @@ h1, p {
   justify-content: space-between;
 }
 
-.linksContainer {
+.container {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
+
 .pageDescContainer {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  height: 18rem;
   margin: 5rem 0 5rem 0;
+}
+
+.descTitle {
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .imageBox {
   background-color: rgb(158, 163, 165);
-  width:50%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.signUpBtn {
+.signUpBtnTop {
   color: white;
   font-weight: bold;
-  background-color: #3882F6;
+  background-color: #3882f6;
   border-radius: 10px;
   border: 0;
   width: 7rem;
   height: 2rem;
   margin-top: 1rem;
+}
+
+.nftSection {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.nftContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nftImg {
+  border: 3px solid #3882f6;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.quoteSectionWrapper {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.quoteSection {
+  width: 38%;
+  margin: 7rem 0 7rem 0;
+  line-height: 1.3;
+}
+
+.quoteSection em {
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: italic; 
+}
+
+.quoteAuthor {
+  font-weight: bold;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.inviteSectionWrapper {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.inviteSection {
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 5rem 0 5rem 0;
+  width: 60%;
+}
+
+.inviteContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 3rem 2rem 3rem;
+  align-items: center;
+}
+
+.inviteContainer h1 {
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 0 2rem 0;
+}
+
+.signUpBtnBtm {
+  color: white;
+  font-weight: bold;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 7rem;
+  height: 2rem;
 }
