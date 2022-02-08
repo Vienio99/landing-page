@@ -1,0 +1,59 @@
+/* Override default */
+h1, p {
+  margin:0;
+}
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  height: 35rem;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pageDescContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 18rem;
+  margin: 5rem 0 5rem 0;
+}
+
+.imageBox {
+  background-color: rgb(158, 163, 165);
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpBtn {
+  color: white;
+  font-weight: bold;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: 0;
+  width: 7rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
